@@ -3,7 +3,6 @@ import axios from '../../axios';
 import { apiKey, imageUrl } from '../../constants/constants';
 import YouTube from 'react-youtube';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from 'react-responsive-carousel';
 import './RowPost.styles.css';
 
 function Rowpost({originals,setOriginals,title,isSmall,url}) {
